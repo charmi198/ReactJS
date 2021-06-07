@@ -1,0 +1,171 @@
+/* .row {
+  display: flex;
+}
+
+.side {
+  flex: 5%;
+  padding: 20px;
+}
+
+.main {
+  flex: 80%;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.main a {
+  text-decoration: none;
+  color: black;
+}
+
+.fakeimg {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+} */
+
+/* .user {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.main {
+  text-align: left;
+  
+}
+
+.main a {
+  text-decoration: none;
+  color: rgb(16, 197, 158);
+}
+
+.aside1 {
+ 
+}
+
+.aside1 img {
+  height: 100px;
+  width: 100px;
+}
+
+.aside-2 {
+  background: hotpink;
+} 
+
+@media all and (min-width: 600px) {
+  .aside {
+    flex: 1 0 0;
+  }
+}
+
+@media all and (min-width: 800px) {
+  .main {
+    flex: 3 0px;
+  }
+  .aside-1 {
+    order: 1;
+  }
+  .main {
+    order: 2;
+  }
+  .aside-2 {
+    order: 3;
+  }
+  .footer {
+    order: 4;
+  }
+}
+
+body {
+  padding: 2em;
+} */
+
+.user {
+  margin: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5em;
+}
+
+.menu {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.menu-group-heading {
+  margin: 0;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #ccc;
+}
+
+.menu-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 1.5em 0;
+}
+
+.menu-item {
+  display: flex;
+}
+
+.menu-item-image {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 1.5em;
+}
+
+.menu-item-text {
+  flex-grow: 1;
+}
+
+.menu-item-heading {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.menu-item-name {
+  margin-right: 1.5em;
+}
+
+.menu-item-description {
+  line-height: 1.6;
+}
+
+.color {
+  color: rgb(105, 102, 102);
+}
+
+.image img {
+  width: 80px;
+  height: 80px;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(16, 197, 158);
+}
