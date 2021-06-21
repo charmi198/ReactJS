@@ -12,9 +12,13 @@
 
 ### 1. To run this application, you need to have NPM and Node.js installed on your machine.
    ##### To install node.js use the following command:
+   ```bash
    sudo apt install nodejs
+   ```
    ##### To install NPM, use the following command:
+   ```bash
    sudo apt install npm
+   ```
    
    
 ### 2. After installing these requirements, move to you folder where you have cloned this project.
@@ -23,7 +27,9 @@
    
    
 ### 3. Run this command to run this React application:
+```bash
    npm start
+   ```
   
   
 ### After running this command,
