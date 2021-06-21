@@ -5,6 +5,7 @@
   ![Screenshot from 2021-06-21 17-56-04](https://user-images.githubusercontent.com/60168705/122763036-88c10300-d2bb-11eb-8161-5b7d0f460a92.png)
 
 * Clicking on a specific contact will open it’s details on the right side.
+  ![Screenshot from 2021-06-21 18-10-21](https://user-images.githubusercontent.com/60168705/122763647-36341680-d2bc-11eb-8306-7b3be5b98142.png)
 * Clicking on Add contact button will open a modal to add a new contact into the contact list.
 * Searching by Name is also possible from the search box
 * Hovering on a specific contact will show edit and delete buttons. Clicking on edit button will open a modal to edit an existing contact and clicking on delete button will delete the contact.
