@@ -1,6 +1,5 @@
 # Contact List
 ## Description
-   Used static data as a master data.
 * An interface to display contact list.
 * Clicking on a specific contact will open it’s details on the right side.
 * Clicking on Add contact button will open a modal to add a new contact into the contact list.
