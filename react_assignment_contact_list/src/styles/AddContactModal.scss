@@ -43,12 +43,16 @@
   color: white;
   padding: 0.25rem 1rem;
   cursor: pointer;
+  border: transparent;
+  margin-right: 2px;
+  border-radius: 3px;
 }
 
 .button:hover,
 .button:active {
   background: linear-gradient(to right, #ff9966, #fc5053, #f56236);
   border-color: linear-gradient(to right, #ff9966, #fc5053, #f56236);
+  border: transparent;
 }
 
 .button:focus {
