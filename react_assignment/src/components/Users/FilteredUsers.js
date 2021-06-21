@@ -22,7 +22,7 @@ const FilteredUsers = (props) => {
                       {props.username}
                     </a>
                   </span>
-                  <span className={classes["menu-item-price"]}>
+                  <span className={classes["menu-item-name"]}>
                     {props.name}
                   </span>
                 </h4>
