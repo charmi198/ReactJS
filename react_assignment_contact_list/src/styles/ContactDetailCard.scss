@@ -1,0 +1,15 @@
+.contactdetailcard {
+  padding: 3rem !important;
+  //box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background-color: rgb(226, 226, 226) !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .contactdetailcard {
+    padding: 1rem !important;
+    //box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    background-color: rgb(226, 226, 226) !important;
+  }
+}

@@ -1,0 +1,62 @@
+// body {
+//   padding: 2rem;
+// }
+
+.form {
+  // width: 50vw;
+  padding-bottom: 2rem;
+  padding-left: 8rem;
+}
+
+.input {
+  background-color: rgb(226, 226, 226);
+  color: black;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border-radius: 20px;
+  border-color: transparent;
+  // width: 200px;
+
+  &:focus {
+    border-color: transparent;
+    outline-color: transparent;
+  }
+}
+
+.button1 {
+  background: linear-gradient(to right, #ff9966, #fc5053, #f56236);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.button2 {
+  background: linear-gradient(to right, #ff9966, #fc5053, #f56236);
+  color: white;
+  //padding: 0.5rem;
+  border-radius: 50%;
+  border-color: transparent;
+  display: none;
+}
+
+@media (orientation: portrait) {
+  .form {
+    padding: 0 1rem;
+    padding-bottom: 2rem;
+  }
+  .input {
+    margin: 0 auto;
+  }
+  .button1 {
+    display: none;
+  }
+  .button2 {
+    display: block;
+    position: fixed;
+    z-index: 10;
+    bottom: 3%;
+    right: 3%;
+    padding: 1rem;
+  }
+}

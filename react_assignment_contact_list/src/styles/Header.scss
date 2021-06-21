@@ -1,0 +1,21 @@
+.header1 {
+  padding: 0;
+}
+
+.header_content {
+  padding: 0 6rem;
+  padding-bottom: 2rem;
+}
+
+.line {
+  width: 100%;
+}
+
+@media (orientation: portrait) {
+  .header_content {
+    padding: 0 1rem;
+  }
+  .line {
+    display: none;
+  }
+}

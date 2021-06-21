@@ -1,0 +1,45 @@
+// .contactdetail {
+//   background-color: lightgray;
+// }
+.backdropdetail {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75) !important;
+  display: none;
+}
+
+.detail {
+  //   width: 20vh;
+  text-align: center;
+  //   display: block;
+  //   margin-left: auto;
+  //   margin-right: auto;
+}
+
+.detailcontactmodal {
+  position: absolute;
+  top: 32%;
+  left: 55%;
+  z-index: 100;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1200px) {
+  .detailcontactmodal {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    // top: 25%;
+    // left: 15%;
+    z-index: 100;
+    overflow: hidden;
+  }
+  .backdropdetail {
+    display: inline;
+  }
+}

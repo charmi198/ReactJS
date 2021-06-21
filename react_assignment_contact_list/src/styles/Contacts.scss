@@ -1,0 +1,18 @@
+.contacts {
+  padding: 0 8rem;
+  float: left;
+}
+
+@media (orientation: portrait) {
+  .contacts {
+    padding: 0;
+    float: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .contacts {
+    padding: 0;
+    float: none;
+  }
+}

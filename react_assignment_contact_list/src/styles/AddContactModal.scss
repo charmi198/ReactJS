@@ -1,0 +1,76 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75) !important;
+}
+
+.addcontactmodal {
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.header {
+  background: linear-gradient(to right, #ff9966, #fc5053, #f56236);
+  padding: 1rem;
+}
+
+.header h2 {
+  margin: 0;
+  color: white;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.actions {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  font: inherit;
+  border: 1px solid linear-gradient(to right, #ff9966, #fc5053, #f56236);
+  background: linear-gradient(to right, #ff9966, #fc5053, #f56236);
+  color: white;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background: linear-gradient(to right, #ff9966, #fc5053, #f56236);
+  border-color: linear-gradient(to right, #ff9966, #fc5053, #f56236);
+}
+
+.button:focus {
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .addcontactmodal {
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+}
+
+@media (orientation: portrait) {
+  .addcontactmodal {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    // top: 25%;
+    // left: 20%;
+    z-index: 100;
+    overflow: hidden;
+  }
+}
