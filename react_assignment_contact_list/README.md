@@ -1,6 +1,7 @@
 # Contact List
 ## Description
 * An interface to display contact list.
+  ![alt text](https://github.com/charmi198/ReactJS/blob/master/Screenshot from 2021-06-21 17-56-04.png?raw=true)
 * Clicking on a specific contact will open it’s details on the right side.
 * Clicking on Add contact button will open a modal to add a new contact into the contact list.
 * Searching by Name is also possible from the search box
